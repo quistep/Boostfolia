@@ -1,0 +1,41 @@
+.header
+  background: #f8f6f6
+  padding-top: 57px
+  padding-bottom: 57px
+  &__menu-bar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &-logo
+      display: flex
+      &-img
+        margin-right: 25px
+        margin-left: 180px
+      &-text 
+        font-family: 'BigNoodleTitling', sans-serif
+        font-size: 40px
+        color: #696969
+        letter-spacing: 5px
+    &-burger
+      &-button
+        cursor: pointer   
+        &-line
+          display: block
+          width: 34px
+          height: 2px
+          background-color: #464646
+          margin-right: 190px
+          &::before 
+            background-color: #464646
+            height: 2px
+            width: 34px
+            position: absolute
+            content: ''
+            transform: translateY(-8px)
+          &::after
+            background-color: #464646
+            height: 2px
+            width: 34px
+            position: absolute
+            content: ''
+            transform: translateY(8px)
