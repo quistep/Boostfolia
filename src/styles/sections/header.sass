@@ -17,23 +17,29 @@
         letter-spacing: 5px
     &-burger
       &-button
-        cursor: pointer   
+        display: block
+        cursor: pointer
+        position: relative   
+        width: 34px
+        height: 30px
         &-line
+          position: absolute
           display: block
           width: 34px
           height: 2px
           background-color: #464646
-          &::before 
+          top: 14px
+          &::before
+            position: absolute
+            content: ''
             background-color: #464646
             height: 2px
             width: 34px
-            position: absolute
-            content: ''
-            transform: translateY(-8px)
+            top: -8px
           &::after
+            position: absolute
+            content: ''
             background-color: #464646
             height: 2px
             width: 34px
-            position: absolute
-            content: ''
-            transform: translateY(8px)
+            top: 8px  

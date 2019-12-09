@@ -1,0 +1,50 @@
+.portfolio
+  padding-top: 80px
+  &__text
+    display: flex
+    flex-direction: column
+    &-header
+      margin: 0 auto 40px
+      font-family: 'BigNoodleTitling', sans-serif
+      font-size: 48px
+      color: #3d3d3d
+      letter-spacing: 5px 
+      position: relative
+      &::before
+        position: absolute
+        top: 58px
+        left: 33px
+        width: 74%
+        border-bottom: 2px solid #f6744b
+        content: ""   
+    &-description
+      margin: 0 auto 85px
+      font-family: 'Roboto', sans-serif
+      color: #9b9b9b
+      font-size: 14.01px
+      width: 564px
+      text-align: center
+  &__buttons
+    display: flex
+    justify-content: center
+    margin-bottom: 35px
+    &-button 
+      margin: 0 20px 0 20px
+      background: none
+      font-family: 'Roboto', sans-serif
+      font-size: 13.68px
+      color: #4a4a4a
+      letter-spacing: 1px
+      cursor: pointer
+      &:hover
+        font-weight: bold
+        border-bottom: solid 1px  #d5574a 
+  &__pictures
+    display: flex
+    justify-content: space-between
+    &-column
+      display: flex 
+      flex-direction: column  
+      &-img
+        height: 160px
+        width: 381px  
