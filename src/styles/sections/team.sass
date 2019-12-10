@@ -1,0 +1,155 @@
+.team
+  padding-top: 80px
+  padding-bottom: 105px
+  &__head
+    display: flex
+    flex-direction: column
+    &-header
+      margin: 0 auto 50px
+      font-family: 'BigNoodleTitling', sans-serif
+      font-size: 48px
+      color: #3d3d3d
+      letter-spacing: 5px 
+      position: relative
+      &::before
+        position: absolute
+        top: 58px
+        left: 39px
+        width: 69%
+        border-bottom: 2px solid #f6744b
+        content: ""
+    &-description
+      margin: 0 auto 90px
+      font-family: 'Roboto', sans-serif
+      color: #9b9b9b
+      font-size: 14.01px
+      width: 564px
+      text-align: center
+  &__description
+    display: flex
+    justify-content: center
+    &-member
+      display: flex
+      flex-direction: column
+      height: 370px
+      width: 320px
+      background:  #ebebeb
+      padding-top: 70px
+      margin-right: 25px
+      &-img
+        height: 135px
+        width: 135px
+        border-radius: 50%
+        margin: 0 auto 30px
+        background: tomato
+      &-name
+        display: block
+        margin: 0 auto 
+        font-family: 'Roboto', sans-serif
+        color: #3d3d3d
+        font-size: 20px   
+        letter-spacing: 2px
+      &-profession
+        margin: 0 auto 20px
+        font-weight: lighter
+        font-family: 'Roboto', sans-serif
+        color: #494949
+        font-size: 14px   
+        letter-spacing: 1px
+      &-socials
+        margin: 0 auto 40px
+        &-link 
+          margin: 0 5px 0 5px
+      &-bullets 
+        margin: 0 auto
+        &-input
+          display: none
+        &-label
+          display: inline-block  
+        &-i 
+          display: inline-block
+          width: 10px 
+          height: 10px
+          background: white    
+          border-radius: 50%
+          position: relative
+          margin: 0 3px 
+          cursor: pointer
+          &:before
+            content: ''
+            position: absolute
+            background:  #8e8181
+            height: 10px
+            width: 10px
+            border-radius: 50%
+            transform: scale(0)
+        &-input:checked+i:before
+          transform: scale(1)
+    &-skills
+      display: flex
+      flex-direction: column
+      height: 230px
+      width: 545px
+      background:  #ebebeb
+      padding: 120px 50px 90px 65px
+      &-bold
+        display: block
+        margin: 0 0 25px 0
+        font-family: 'Roboto', sans-serif
+        color: #3d3d3d
+        font-size: 24px   
+        letter-spacing: 2px  
+        font-weight: bold
+      &-paragraph
+        margin: 0 0 45px 0
+        font-family: 'Roboto', sans-serif
+        color: #858383
+        font-size: 14px
+        width: 565px
+      &-skillsbar
+        
+        &-block
+          display: flex
+          &-title
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 14px
+            color: #3d3d3d
+            letter-spacing: 2px
+            margin: 0 auto 10px 0
+            width: 135px
+          &-bar 
+            display: block
+            margin: 8px auto auto 0
+            width: 369px
+            height: 1px
+            background: white
+            &-photoshop
+              display: block
+              float: left
+              height: 1px
+              width: 88%
+              background: #e84c3d
+            &-illustrator
+              display: block
+              float: left
+              height: 1px
+              width: 92%
+              background: #e84c3d
+            &-sketch
+              display: block
+              float: left
+              height: 1px
+              width: 90%
+              background: #e84c3d
+            &-aftereffects 
+              display: block
+              float: left
+              height: 1px
+              width: 98%
+              background: #e84c3d
+          &-percent 
+            margin: 0px
+            font-family: 'Roboto', sans-serif
+            font-size: 14px
+            color: #3d3d3d
