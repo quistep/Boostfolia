@@ -1,0 +1,125 @@
+.blogs
+  padding-top: 75px
+  padding-bottom: 115px
+  &__header
+    display: flex
+    flex-direction: column
+    &-head
+      margin: 0 auto 50px
+      font-family: 'BigNoodleTitling', sans-serif
+      font-size: 48px
+      color: #3d3d3d
+      letter-spacing: 5px 
+      position: relative
+      &::before
+        position: absolute
+        top: 58px
+        left: 39px
+        width: 69%
+        border-bottom: 2px solid #f6744b
+        content: ""
+    &-description
+      margin: 0 auto 75px
+      font-family: 'Roboto', sans-serif
+      color: #9b9b9b
+      font-size: 14.01px
+      width: 564px
+      text-align: center
+  &__blog
+    display: flex
+    justify-content: center
+    &-number
+      background:  #ebebeb
+      width: 320px
+      display: flex
+      flex-direction: column
+      padding-bottom: 25px
+      margin-right: 12px
+      margin-left: 12px 
+      &:hover .blogs__blog-number-img-button1 
+        display: inline
+      &:hover .blogs__blog-number-img-button2
+        display: inline
+      &:hover .blogs__blog-number-img-mount
+        filter: blur(5px)
+    
+      &-img 
+        height: 218px
+        width: 320px
+        padding-bottom: 40px
+        position: relative
+        
+        display: flex
+        justify-content: center
+        
+        &-mount
+          height: 218px
+          width: 320px
+          
+          
+        &-button1 
+          border-radius: 50%
+          height: 43px
+          width: 43px
+          margin: 85px 10px
+          background: #505050
+          cursor: pointer
+          display: none
+          position: absolute
+          left: 100px
+          &:hover
+            background: red
+
+        &-button2 
+          border-radius: 50%
+          height: 43px
+          width: 43px
+          margin: 85px 10px
+          background: #505050
+          cursor: pointer
+          display: none
+          position: absolute
+          right: 100px
+          &:hover
+            background: red
+          
+ 
+
+      &-title
+        margin: 0px 25px 30px
+        font-family: 'Roboto', sans-serif
+        font-size: 18px
+        font-weight: lighter
+        color: #505050
+      &-content
+        margin: 0px 25px 30px
+        font-family: 'Roboto', sans-serif
+        font-size: 14px
+        color: #505050
+        width: 250px
+      &-footer 
+        display: flex
+        justify-content: space-between
+        &-time
+          margin-left: 30px
+          &-data
+            color: #505050
+            font-family: 'Roboto', sans-serif
+            font-size: 10px
+            display: flex
+            margin: -15px 20px
+        &-review
+          color: #505050
+          font-family: 'Roboto', sans-serif
+          font-size: 10px
+          display: flex
+          margin-right: 50px
+          &-picture
+            margin: 0px 3px auto 8px
+          &-numbers
+            margin: 0px auto
+            
+           
+            
+
+

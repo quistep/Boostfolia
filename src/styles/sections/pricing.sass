@@ -1,0 +1,74 @@
+.pricing
+  background-color: #171f23
+  padding-top: 60px
+  padding-bottom: 95px
+  &__text
+    color: #f6f6f6
+    font-family: 'Roboto', sans-serif
+    display: flex
+    flex-direction: column
+    &-header
+      margin: 0 auto 75px
+      font-size: 36px
+      letter-spacing: 5px
+      position: relative 
+      &::before
+        position: absolute
+        top: 58px
+        left: 90px
+        width: 33%
+        border-bottom: 1px solid #404040
+        content: "" 
+  &__prices 
+    display: flex
+    justify-content: center
+    margin: auto 1px auto 1px
+    &-price
+      height: 450px
+      width: 235px
+      margin: auto 1px auto 1px
+      &:hover
+        border: solid 1px #f6744b
+      &:hover .pricing__prices-price-content-number
+        color: #f6744b
+      &-plan
+        background: #0e1316
+        display: flex
+        justify-content: center
+        flex-direction: column
+        &-name
+          margin: 40px auto 10px auto
+          font-size: 14px
+        &-money
+          display: flex
+          justify-content: center
+          &-sign
+            font-size: 26px
+            margin-top: 8px 
+          &-dollars
+            margin-top: 0px 
+            margin-bottom: 40px
+            font-size: 36px
+            
+      &-content
+        background: #1f282c
+        padding-top: 40px
+        padding-bottom: 40px
+        &-offers
+          display: flex
+          justify-content: center
+          margin: 10px auto 10px auto
+          font-size: 14.13px
+        &-number 
+          padding-right: 4px
+        &-button 
+          display: inline-block
+          height: 34px
+          width: 125px
+          border-radius: 3px
+          background: #f6744b
+          font-family: 'Roboto', sans-serif
+          font-weight: bold
+          color: #f6f6f6
+          cursor: pointer
+          margin: 65px 55px 0px 55px
